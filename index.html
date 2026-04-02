@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Call Reminder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- ===== FORM ===== -->
+        <div class="form-container">
+            <h2>New Call</h2>
+            <form >
+            <label>Image URL</label>
+            <input required type="text" placeholder="https://example.com/photo.jpg">
+
+            <label>Full Name</label>
+            <input required type="text" placeholder="Enter full name">
+
+            <label>Home Town</label>
+            <input  required type="text" placeholder="Enter home town">
+
+            <label>Purpose</label>
+            <input required type="text" placeholder="e.g. Quick appointment note">
+
+            <label>Category</label>
+            <div class="category">
+                <label>
+                    <input required type="radio" name="category" value="emergency">
+                    Emergency
+                </label>
+
+                <label>
+                    <input required type="radio" name="category" value="important">
+                    Important
+                </label>
+
+                <label>
+                    <input required type="radio" name="category" value="urgent">
+                    Urgent
+                </label>
+
+                <label>
+                    <input required type="radio" name="category" value="no-rush">
+                    No Rush
+                </label>
+            </div>
+
+            <button class="create-btn">Create Note</button>
+            <button class="close-Form">Close</button>
+            </form>
+        </div>
+
+        <!-- ===== NOTE CARD ===== -->
+        <div class="note-wrapper">
+
+            <div class="left-icons">
+                <button id="add-note">+</button>
+                <button id="Upbtn">↑</button>
+                <button id="Downbtn">↓</button>
+            </div>
+
+
+
+            <!-- STACK -->
+            <div class="stack">
+
+                <!-- CARD 1 -->
+                <div class="note-card">
+                    <img src="https://i.pravatar.cc/100?img=12">
+                    <h3>User name</h3>
+
+                    <div class="info">
+                        <span>Home town</span>
+                        <span>User town</span>
+                    </div>
+
+                    <div class="info">
+                        <span>Purpose</span>
+                        <span>User Purpose</span>
+                    </div>
+
+                    <div class="actions">
+                        <button class="call">📞 Call</button>
+                        <button class="msg">Message</button>
+                    </div>
+                </div>
+
+
+                <!-- JS yahan se new cards add karega -->
+
+            </div>
+
+            <!-- RIGHT COLORS -->
+            <div class="right-colors">
+                <span class="c black"></span>
+                <span class="c purple"></span>
+                <span class="c orange"></span>
+                <span class="c green"></span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
