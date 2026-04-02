@@ -2,7 +2,6 @@
 
 PingStack is a smart call reminder web application that helps users manage and organize call notes efficiently. It features a modern stacked card interface with priority-based categorization.
 
----
 
 ##Features
 
@@ -22,13 +21,11 @@ PingStack is a smart call reminder web application that helps users manage and o
 - Clean and modern UI design
 
 
-
 ##Tech Stack
 
 - HTML
 - CSS
 - JavaScript (DOM Manipulation, Event Handling)
-
 
 
 ##How It Works
@@ -40,12 +37,9 @@ PingStack is a smart call reminder web application that helps users manage and o
 - New cards are added to the top of the stack.
 
 
-
 ##Preview
 
-
-
-
+Link: https://pingstack.netlify.app/
 
 ##Future Improvements
 
@@ -54,7 +48,6 @@ PingStack is a smart call reminder web application that helps users manage and o
 - Convert into React app
 - Add search & filter functionality
 
----
 
 ##Learning Outcome
 
@@ -64,7 +57,6 @@ This project helped me improve my understanding of:
 - UI/UX structuring
 - Dynamic data rendering
 
----
 
 ##Feedback
 
