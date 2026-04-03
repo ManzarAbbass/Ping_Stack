@@ -338,7 +338,8 @@ body {
   }
 
   .actions {
-    gap: 15px margin: top 18px;
+    gap: 15px;
+     margin: top 18px;
   }
 
   .actions .call {
