@@ -312,19 +312,35 @@ body{
   .stack {
     order: 2; /* Dusra number (Center) */
     width: 85%;
-    max-width: 320px;
-    height: 250px;
+    max-width: 350px;
+    height: 280px;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .note-card{
+    padding: 20px;
+  }
+
+  .actions{
+    gap:15px
+    margin: top 18px;
+  }
+  .actions .call, .actions .msg{
+    padding: 12px 0;
+    flex: 1;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 12px;
+    text-align: center;
   }
 
   /* Colors: Sabse Niche */
   .right-colors {
     flex-direction: row; /* Horizontal dots */
     order: 3; /* Teesra number */
-    gap: 15px;
-    margin-top: 10px;
+    gap: 20px;
+    margin-top: 20px;
   }
 
   .c {
